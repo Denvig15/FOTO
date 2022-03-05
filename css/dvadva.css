@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Ole&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  background: url(../img/PAPROBOVAT.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
+.header {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+.bdrug {
+  width: 100%;
+  height: 1300px;
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+}
+.knopki {
+  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.knopki a:hover {
+  background: #fff;
+  color: rgb(194, 27, 27);
+  border-radius: 110px;
+}
+.beleberda {
+  color: rgb(228, 23, 23);
+  font-size: 20px;
+  margin-top: 80px;
+  background-color: #0044ff;
+  width: 2000px;
+  margin-left: 100px;
+}
+a {
+  font-family: "Ole", cursive;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 30px;
+}
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(../img/PAPROBOVAT.jpg);
+  }
+}
